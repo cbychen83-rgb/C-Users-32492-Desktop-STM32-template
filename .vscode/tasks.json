@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Keil: Rebuild template",
+            "type": "process",
+            "command": "C:\\keilv5\\UV4\\UV4.exe",
+            "args": [
+                "-r",
+                "${workspaceFolder}\\template.uvprojx"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Keil: Flash template",
+            "type": "process",
+            "command": "C:\\keilv5\\UV4\\UV4.exe",
+            "args": [
+                "-f",
+                "${workspaceFolder}\\template.uvprojx"
+            ],
+            "dependsOn": "Keil: Rebuild template",
+            "dependsOrder": "sequence",
+            "problemMatcher": []
+        }
+    ]
+}
