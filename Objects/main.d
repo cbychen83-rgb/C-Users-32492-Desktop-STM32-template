@@ -21,4 +21,4 @@
   std_periph_driver\inc\stm32f10x_spi.h \
   std_periph_driver\inc\stm32f10x_tim.h \
   std_periph_driver\inc\stm32f10x_usart.h \
-  std_periph_driver\inc\stm32f10x_wwdg.h
+  std_periph_driver\inc\stm32f10x_wwdg.h my_lib\usart.h

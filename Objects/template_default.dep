@@ -1,6 +1,6 @@
 Dependencies for Project 'template', Target 'default': (DO NOT MODIFY !)
 CompilerVersion: 6230000::V6.23::ARMCLANG
-F (.\user\main.c)(0x6A684B28)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./std_periph_driver/inc -I ./user -I ./my_lib -I ./my_lib/font -I ./my_lib/font/.h -I C:/keilv5/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/keilv5/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="542" -DSTM32F10X_MD-o ./objects/main.o -MMD)
+F (.\user\main.c)(0x6A8405BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./std_periph_driver/inc -I ./user -I ./my_lib -I ./my_lib/font -I ./my_lib/font/.h -I C:/keilv5/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/keilv5/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="542" -DSTM32F10X_MD-o ./objects/main.o -MMD)
 I (std_periph_driver\inc\stm32f10x.h)(0x65D9A79F)
 I (std_periph_driver\inc\core_cm3.h)(0x644612F7)
 I (user\system_stm32f10x.h)(0x644612F7)
@@ -27,6 +27,7 @@ I (std_periph_driver\inc\stm32f10x_spi.h)(0x644612F7)
 I (std_periph_driver\inc\stm32f10x_tim.h)(0x646763F8)
 I (std_periph_driver\inc\stm32f10x_usart.h)(0x644612F7)
 I (std_periph_driver\inc\stm32f10x_wwdg.h)(0x644612F7)
+I (my_lib\usart.h)(0x66D452EF)
 F (.\user\system_stm32f10x.c)(0x64C61031)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./std_periph_driver/inc -I ./user -I ./my_lib -I ./my_lib/font -I ./my_lib/font/.h -I C:/keilv5/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/keilv5/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="542" -DSTM32F10X_MD-o ./objects/system_stm32f10x.o -MMD)
 I (std_periph_driver\inc\stm32f10x.h)(0x65D9A79F)
 I (std_periph_driver\inc\core_cm3.h)(0x644612F7)
